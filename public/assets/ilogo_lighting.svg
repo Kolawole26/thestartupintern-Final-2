@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.032" height="81.774" viewBox="0 0 61.032 81.774">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.205" y1="0.672" x2="0.795" y2="0.328" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bc27ed"/>
+      <stop offset="0.52" stop-color="#8238f6"/>
+      <stop offset="1" stop-color="#4848ff"/>
+    </linearGradient>
+  </defs>
+  <path id="ilogo_lighting" d="M156.67,61.228,178.022,61,150.983,88.7,177.9,84.768,116.99,142.778,150.4,98.273l-20.873,3.287Z" transform="translate(-116.99 -61.005)" fill="url(#linear-gradient)"/>
+</svg>

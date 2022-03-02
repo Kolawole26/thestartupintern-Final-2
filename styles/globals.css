@@ -1,16 +1,41 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  @font-face {
+      font-family: 'Zenith-Regular';
+      src: url('../public/fonts/Zenith Script.woff2') format('woff2');
+      font-weight:400;
+      font-display:swap;
+      
+  }
+  @font-face {
+      font-family: 'Zenith-Rough';
+      src: url('../public/fonts/Zenith Rough.woff2') format('woff2');
+      font-weight:400;
+      font-display:swap;
+      
+  }
+
+
+
+  
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+@layer components {
+  .stk {
+    -webkit-text-stroke: 2px #fff;
+  }
+
+  .mySwiper .swiper {
+  z-index: 50;
+  
 }
 
-* {
-  box-sizing: border-box;
-}
+
+
+  }
