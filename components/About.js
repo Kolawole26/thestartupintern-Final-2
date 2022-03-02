@@ -13,9 +13,12 @@ function About() {
                             <div className=" relative top-6 md:mr-7 mr-4">
                                 <Image src="/assets/plus.svg" width={24} height={24} alt="plus"/>
                             </div>
-                            <p className=' font-black md:text-6xl text-2xl text-white flex-1'>
-                                <span className=' text-purple'>LOREM IPSUM</span>DOLOR SIT AMET SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE
-                            </p>
+                            <div className=" flex-1">
+                                <p className=' font-black md:text-6xl text-2xl text-purple '>LOREM IPSUM</p>
+                                <p className=' font-black md:text-6xl text-2xl text-white '>
+                                    DOLOR SIT AMET SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE
+                                </p>
+                            </div>
                         </div>
                         
                     </div>

@@ -8,7 +8,11 @@ function Header({onClick, active}) {
   return (
     <>
         <header className=" ">
-            
+            <div className=" bg-purple flex justify-end h-16 lg:hidden">
+                <div className=" mb-11 cursor-pointer py-4 mr-6 " onClick={onClick}>
+                    <Image src="/assets/ico_menu.svg" width={40} height={32} alt="menu bar"/>
+                 </div>
+            </div>
             <div className=" lg:flex">
                 <div className="grow">
 
