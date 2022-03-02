@@ -17,7 +17,7 @@ function Explore() {
                             
                             <p className=' font-black md:text-9xl text-5xl text-white'>MY YELLOW SHOES</p>
                             <p className=" font-Zenith md:text-98 text-3xl text-blue rotate-15 lg:absolute lg:bottom-20 lg:left-475">on Twitter</p>
-                            <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-12 px-6 bg-gradient-to-r from-blue to-purple rounded-full mb-5 lg:mb-0 lg:absolute lg:right-16 lg:bottom-7">
+                            <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-12 px-6 bg-gradient-to-r from-blue to-purple rounded-full mb-5 lg:mb-0 lg:absolute lg:right-16 lg:bottom-7 mt-7 lg:mt-0 ">
                             VIEW ALL
                         </button>
                         </div>

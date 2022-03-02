@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
         <div className=' lg:pr-72 relative lg:pb-24 overflow-hidden px-7 lg:px-0'>
-            <div className=' bg-blue lg:pt-28  lg:pl-80 lg:pr-20 mt-7 px-7 lg:px-0 py-7'>
+            <div className=' bg-blue lg:pt-28  lg:pl-80 lg:pr-20 mt-7 lg:mt-0 px-7 lg:px-0 py-7 lg:py-0'>
                 <div className=' md:mb-20 mb-10'>
                 <p className=' font-bold md:text-base text-xs text-white md:mb-7 mb-3'>FIND US</p>
                     <div className=" lg:flex justify-between items-start">

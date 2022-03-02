@@ -79,7 +79,7 @@ function Header({onClick, active}) {
                             </div>
                             </div>
                             
-                            <div className=" bg-yellow py-8 px-7 w-20  h-20 rounded-full flex items-center justify-center absolute md:right-16 right-8 lg:bottom-52 md:mt-10">
+                            <div className=" bg-yellow py-8 px-7 w-20  h-20 rounded-full flex items-center justify-center absolute md:right-16 right-8 lg:bottom-0 md:mt-10">
                             <div className=" ">
                                 <Image src="/assets/arrow.svg" width={23} height={14} alt="arrow"/>
                             </div>
@@ -113,7 +113,7 @@ function Header({onClick, active}) {
             </div>
             </div>
             <div className=" px-6 pt-14 bg-gradient-to-b md:h-1079 from-purple via-purple to-blue hidden lg:block text-center sticky ">
-                            <div className=" mb-11 " onClick={onClick}>
+                            <div className=" mb-11 cursor-pointer" onClick={onClick}>
                             <Image src="/assets/ico_menu.svg" width={40} height={32} alt="menu bar"/>
                             </div>
                             <div className=" mb-759">
