@@ -6,7 +6,7 @@ function About() {
         <div className="lg:relative lg:pb-28 pb-10 px-7 lg:px-0 overflow-hidden">
         <h1 className=" font-black text-blue lg:text-300p text-6xl absolute  -right-96 top-80 rotate-m90 hidden lg:block ">100%</h1>
             <div className=' lg:pt-14 pt-7 lg:flex '>
-                <div className=' lg:w-560 lg:h-852 bg-blue mb-10 lg:mb-0'>
+                <div className=' lg:w-560 lg:h-852 bg-blue mb-10 lg:mb-0 px-3 lg:px-0'>
                     <div className=' lg:pt-28 pt-14  pb-7 lg:relative lg:left-279'>
                         <h4 className=' font-bold md:text-base text-xs text-white md:mb-12 mb-6'>ABOUT</h4>
                         <div className=" flex ">
