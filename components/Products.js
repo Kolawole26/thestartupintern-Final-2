@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -46,39 +45,20 @@ function Products() {
                                 <div className=" lg:absolute lg:top-560 lg:right-44 z-50 relative top-16">
                                         <Image src="/assets/img_sneakers_mid.png" width={911} height={388} alt="sneaker"/>
                                 </div>
-                                {/* <div className=" bg-yellow-2 lg:w-660 lg:h-385 lg:pt-14 lg:py-0 lg:px-0 py-7 px-4 lg:pl-8 lg:pr-16 flex lg:absolute top-790 right-80 z-40">
-                                    <p className=" font-black md:text-2xl text-base text-white md:mr-14 mr-7"><span className=" text-yellow-2">1</span>/6</p>
-                                    <div>
-                                        <h3 className=" font-black md:text-4xl text-xl text-black md:mb-11 mb-5">Yellow Women's Olisa - Denim Canvas</h3>
-                                        <p className=" font-normal md:text-base text-xs text-t-black-2 md:mb-10 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing sed 
-                                            do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        </p>
-                                        <div className="md:flex items-center justify-between">
-                                        <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-12 px-6 bg-gradient-to-r from-blue to-purple rounded-full mb-5 lg:mb-0 flex">
-                                            QUICK LOOK
-                                        </button>
-                                        <p className=" font-black md:text-4xl text-xl text-white">$109.95</p>
-                                        </div>
-                                    </div>
-                                </div> */}
 
                                     <div className=" lg:absolute max-w-660 lg:top-790 lg:right-80   z-40">
-                                    <Swiper 
-                                // navigation={true} 
+                                    <Swiper  
                                 modules={[Navigation]} 
                                 navigation={{
-                                    // Both prevEl & nextEl are null at render so this does not work
                                     prevEl: navigationPrevRef.current,
                                     nextEl: navigationNextRef.current,
                                   }}
                                   onSwiper={(swiper) => {
-                                    // Delay execution for the refs to be defined
                                     setTimeout(() => {
-                                      // Override prevEl & nextEl now that refs are defined
                                       swiper.params.navigation.prevEl = navigationPrevRef.current
                                       swiper.params.navigation.nextEl = navigationNextRef.current
                             
-                                      // Re-init navigation
+                                      
                                       swiper.navigation.destroy()
                                       swiper.navigation.init()
                                       swiper.navigation.update()
@@ -112,7 +92,7 @@ function Products() {
                                             className="flex items-center absolute  lg:-right-66 lg:bottom-14  py-7 px-7  cursor-pointer bg-gradient-to-r from-blue to-purple hover:from-purple hover:to-blue transition duration-300 ease-in-out"
                                             >
                                             <div className=" ">
-                                                <Image src="/assets/Shape-1.svg" width={11} height={16} alt="Clip"/>
+                                                <Image src="/assets/Shape-1.svg" width={11} height={16} alt="arrow-right"/>
                                             </div>
                                             </div>
                                         <div
@@ -120,7 +100,7 @@ function Products() {
                                             className="flex items-center absolute lg:-right-66  lg:bottom-135 right-7 py-7 px-7  cursor-pointer bg-yellow"
                                             >
                                             <div className=" ">
-                                                <Image src="/assets/Shape-2.svg" width={11} height={16} alt="Clip"/>
+                                                <Image src="/assets/Shape-2.svg" width={11} height={16} alt="arrow-left"/>
                                             </div>
                                         </div>
                                     </div>

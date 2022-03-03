@@ -20,8 +20,8 @@ function Header({onClick, active}) {
             <nav className={`${!active && 'hidden'}  relative top-0 w-full h-screen bg-blue z-50 `}>
                 <ul className='flex flex-col py-10 text-center divide-y '>
                     <Link href='/'><a className={`${router.pathname == "/" ? " text-yellow" : "" } uppercase text-base text-white  font-Futura-Book py-3`}>HOME</a></Link>
-                    <Link href='/'><a className={`${router.pathname == "/shop" ? " text-yellow" : "" } uppercase text-base text-white  font-Futura-Book py-3`}>SHOP</a></Link>
                     <Link href='/'><a className={`${router.pathname == "/about" ? " text-yellow" : "" } uppercase text-base text-white  font-Futura-Book py-3`}>ABOUT</a></Link>
+                    <Link href='/'><a className={`${router.pathname == "/shop" ? " text-yellow" : "" } uppercase text-base text-white  font-Futura-Book py-3`}>PRODUCTS</a></Link>
                     <Link href='/'><a className={`${router.pathname == "/contact" ? " text-yellow" : "" } uppercase text-base text-white font-Futura-Book py-3`}>CONTACT</a></Link>
                     <Link href='/'><a className={`${router.pathname == "/faq" ? " text-yellow" : "" } uppercase text-base text-white font-Futura-Book py-3`}>FAQ</a></Link>
                 </ul>
@@ -91,22 +91,6 @@ function Header({onClick, active}) {
                             </div>
                             
                         </div>
-
-                        
-                        {/* <div className=" px-6 pt-14 bg-gradient-to-b from-purple via-purple to-blue hidden lg:block text-center sticky ">
-                            <div className=" mb-11 " onClick={onClick}>
-                            <Image src="/assets/ico_menu.svg" width={40} height={32} alt="menu bar"/>
-                            </div>
-                            <div className=" mb-759">
-                            <Image src="/assets/cart.svg" width={28} height={30} alt="cart"/>
-                            </div>
-                            <div className=" mb-9">
-                            <Image src="/assets/shape.svg" width={10} height={20} alt="facebook"/>
-                            </div>
-                            <div className=" mb-">
-                            <Image src="/assets/icon-04-512.svg" width={23} height={23} alt="icon"/>
-                            </div>
-                        </div> */}
                     </div>
                     <div className=" absolute lg:top-1 lg:left-16 top-16 z-0">
                                 <Image src="/assets/img_sneakers_header.png" width={1077} height={1267} alt="sneakers"/>
@@ -124,10 +108,10 @@ function Header({onClick, active}) {
                             <Image src="/assets/cart.svg" width={28} height={30} alt="cart"/>
                             </div>
                             <div className=" mb-9">
-                            <Image src="/assets/shape.svg" width={10} height={20} alt="facebook"/>
+                            <Image src="/assets/Shape.svg" width={10} height={20} alt="facebook"/>
                             </div>
                             <div className=" ">
-                            <Image src="/assets/icon-04-512.svg" width={23} height={23} alt="icon"/>
+                            <Image src="/assets/icon-04-512.svg" width={23} height={23} alt="instagram"/>
                             </div>
             </div>
             </div>

@@ -55,10 +55,10 @@ function Footer() {
                                     <Image src="/assets/ico_twitter-yellow.svg" width={24} height={20} alt="twitter"/>
                                 </div>
                                 <div className="mr-7 mb-3 lg:mb-0">
-                                    <Image src="/assets/ico_facebook.svg" width={11} height={24} alt="AUSTRALIA"/>
+                                    <Image src="/assets/ico_facebook.svg" width={11} height={24} alt="facebook"/>
                                 </div>
                                 <div className="mr-7 mb-3 lg:mb-0">
-                                    <Image src="/assets/ico_instagram.svg" width={23} height={24} alt="AUSTRALIA"/>
+                                    <Image src="/assets/ico_instagram.svg" width={23} height={24} alt="instagram"/>
                                 </div>
                                 <div className=" flex items-center">
                                     <p className="font-semibold text-white mr-2 ">-</p>
@@ -82,7 +82,7 @@ function Footer() {
                         </div> 
 
                         <div className=" absolute lg:-bottom-498 lg:-left-56 hidden lg:block">
-                                <Image src="/assets/img_sneakers_footer.png" width={1000} height={1100} alt="logo"/>
+                                <Image src="/assets/img_sneakers_footer.png" width={1000} height={1100} alt="sneakers"/>
                         </div>
 
                         <p className=" hidden lg:block font-extrabold md:text-base text-white rotate-m90 absolute right-44 bottom-52">Crafted by EA93</p>
