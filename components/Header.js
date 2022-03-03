@@ -96,8 +96,8 @@ function Header({onClick, active}) {
                                 <Image src="/assets/img_sneakers_header.png" width={1077} height={1267} alt="sneakers"/>
                             </div>
                 </div>
-                
-               
+
+
             </div>
             </div>
             <div className=" px-6 pt-14 bg-gradient-to-b md:h-1079 from-purple via-purple to-blue hidden lg:block text-center sticky ">
