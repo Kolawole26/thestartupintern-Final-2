@@ -94,7 +94,7 @@ function Products() {
                                                     do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis nostrud
                                                 </p>
                                                 <div className="md:flex items-center justify-between">
-                                                <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-12 px-6 bg-gradient-to-r from-blue to-purple rounded-full mb-5 lg:mb-0 flex">
+                                                <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-12 px-6 bg-gradient-to-r from-blue to-purple hover:from-purple hover:to-blue transition duration-300 ease-in-out rounded-full mb-5 lg:mb-0 flex">
                                                     QUICK LOOK
                                                 </button>
                                                 <p className=" font-black md:text-4xl text-xl text-white">$109.95</p>
@@ -109,7 +109,7 @@ function Products() {
                                 </Swiper>
                                         <div
                                             ref={navigationPrevRef}
-                                            className="flex items-center absolute  lg:-right-66 lg:bottom-14  py-7 px-7  cursor-pointer bg-gradient-to-r from-blue to-purple"
+                                            className="flex items-center absolute  lg:-right-66 lg:bottom-14  py-7 px-7  cursor-pointer bg-gradient-to-r from-blue to-purple hover:from-purple hover:to-blue transition duration-300 ease-in-out"
                                             >
                                             <div className=" ">
                                                 <Image src="/assets/Shape-1.svg" width={11} height={16} alt="Clip"/>

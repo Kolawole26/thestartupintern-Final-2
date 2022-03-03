@@ -8,7 +8,7 @@ function Header({onClick, active}) {
   return (
     <>
         <header className=" ">
-            <div className=" bg-purple flex justify-end  lg:hidden">
+            <div className=" bg-gradient-to-r from-blue to-purple flex justify-end  lg:hidden">
                 <div className=" cursor-pointer py-4 mr-6 " onClick={onClick}>
                     <Image src="/assets/ico_menu.svg" width={40} height={32} alt="menu bar"/>
                  </div>
@@ -53,7 +53,7 @@ function Header({onClick, active}) {
                       <p className=" font-black text-blue md:text-90 text-3xl">LIGHTNING</p>
                       <p className=" font-light md:text-90 text-3xl text-white italic">LIGHT</p>
                       <p className=" font-black md:text-90 text-3xl text-white md:mb-10 mb-5">FOOTWARE</p>
-                      <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-12 px-6 bg-gradient-to-r from-blue to-purple rounded-full mb-9 lg:mb-0 flex">
+                      <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-12 px-6 bg-gradient-to-r from-blue to-purple hover:from-purple hover:to-blue transition duration-300 ease-in-out rounded-full mb-9 lg:mb-0 flex">
                           <div className=" md:mr-10 mr-5"><Image src="/assets/arrow.svg" width={23} height={14} alt="arrow"/></div>
                            ORDER NOW
                         </button>

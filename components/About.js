@@ -37,7 +37,7 @@ function About() {
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                                     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     </p>
-                                    <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-16 px-6 bg-gradient-to-r from-blue to-purple rounded-full mb-5 lg:mb-0 flex md:mb-10">
+                                    <button className=" font-bold md:text-base text-xs text-white md:py-5 py-3 md:px-16 px-6 bg-gradient-to-r from-blue to-purple hover:from-purple hover:to-blue transition duration-300 ease-in-out rounded-full mb-5 lg:mb-0 flex md:mb-10">
                                         <div className=" md:mr-10 mr-5"><Image src="/assets/arrow.svg" width={23} height={14} alt="arrow"/></div>
                                         FIND OUT
                                     </button>
