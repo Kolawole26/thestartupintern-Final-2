@@ -7,7 +7,7 @@ function Header({onClick, active}) {
     const router = useRouter()
   return (
     <>
-        <header className=" ">
+        <header className=" relative ">
             <div className=" bg-gradient-to-r from-blue to-purple flex justify-end  lg:hidden">
                 <div className=" cursor-pointer py-4 mr-6 " onClick={onClick}>
                     <Image src="/assets/ico_menu.svg" width={40} height={32} alt="menu bar"/>
@@ -28,7 +28,7 @@ function Header({onClick, active}) {
               </nav>
             </div>
                 
-            <div className=" lg:flex grow">
+            <div className=" lg:flex grow overflow-hidden">
 
         
         
@@ -92,14 +92,17 @@ function Header({onClick, active}) {
                             
                         </div>
                     </div>
-                    <div className=" absolute lg:top-1 lg:left-16 top-16 z-0">
+                            <div className=" absolute lg:top-1 lg:left-16 top-16 z-0 lg:w-1077 lg:h-1267">
                                 <Image src="/assets/img_sneakers_header.png" width={1077} height={1267} alt="sneakers"/>
                             </div>
                 </div>
 
 
             </div>
+            
             </div>
+            
+            
             <div className=" px-6 pt-14 bg-gradient-to-b md:h-1079 from-purple via-purple to-blue hidden lg:block text-center sticky ">
                             <div className=" mb-11 cursor-pointer" onClick={onClick}>
                             <Image src="/assets/ico_menu.svg" width={40} height={32} alt="menu bar"/>
@@ -114,8 +117,9 @@ function Header({onClick, active}) {
                             <Image src="/assets/icon-04-512.svg" width={23} height={23} alt="instagram"/>
                             </div>
             </div>
+           
             </div>
-
+            
         </header>
     </>
   )
